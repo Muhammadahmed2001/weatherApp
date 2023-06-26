@@ -1,0 +1,9 @@
+.main{
+    margin: auto;
+    margin-top: 50px;
+    background-image: url(pic/background.gif);
+    width: 25%;
+    height: 520px;
+    /* background-repeat: no-repeat; */
+    border-radius: 30px;
+}
