@@ -28,6 +28,7 @@ body {
     height: 30px;
     margin-top: 5px;
     background: rgb(207 179 148);
+    
 
 }
 
@@ -52,6 +53,10 @@ body {
     align-items: center;
     background: rgb(232, 212, 134);
     background: linear-gradient(183deg, rgb(44, 44, 43) 10%, rgba(179, 147, 133, 1) 45%, rgba(23, 16, 13, 1) 100%);
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 30px;
+    margin-top: 5px;
 
 }
 
@@ -67,4 +72,9 @@ body {
 
 .weather-image {
     width: 50px;
+}
+.weather-deatail-value{
+    margin-left: 45%;
+    font-size: 15px;
+    font-weight: bolder;
 }
