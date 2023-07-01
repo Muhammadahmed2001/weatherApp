@@ -48,17 +48,23 @@ body {
 }
 
 .column {
+    display: flex;
+    align-items: center;
     background: rgb(232, 212, 134);
     background: linear-gradient(183deg, rgb(44, 44, 43) 10%, rgba(179, 147, 133, 1) 45%, rgba(23, 16, 13, 1) 100%);
 
 }
 
 
-.weather-img>span {
-    font-size: 25px;
+.weather-deatail>span {
+    font-size: 20px;
     font-weight: bolder;
-    
 
 
 
+
+}
+
+.weather-image {
+    width: 50px;
 }
