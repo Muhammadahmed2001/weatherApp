@@ -1,6 +1,7 @@
 body {
-    background: rgb(232, 212, 134);
-    background: linear-gradient(183deg, rgb(44, 44, 43) 10%, rgba(179, 147, 133, 1) 45%, rgba(23, 16, 13, 1) 100%);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 40%);
+    
 
 
 
@@ -9,7 +10,7 @@ body {
 .main {
     margin: auto;
     margin-top: 50px;
-    background-image: url(pic/background.gif);
+    background-image: url(pic/bac1.webp);
     width: 300px;
     height: 520px;
     border-radius: 30px;
@@ -51,8 +52,8 @@ body {
 .column {
     display: flex;
     align-items: center;
-    background: rgb(232, 212, 134);
-    background: linear-gradient(183deg, rgb(44, 44, 43) 10%, rgba(179, 147, 133, 1) 45%, rgba(23, 16, 13, 1) 100%);
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);    
     margin-left: 8px;
     margin-right: 8px;
     border-radius: 30px;
@@ -134,7 +135,7 @@ body {
     left: 0;
     height: 2px;
     width: 100%;
-    background-color:#a136a6;
+    background-color:#ffff00;
     transform: scaleX(0);
     transition: all 0.3s ease;
   }
