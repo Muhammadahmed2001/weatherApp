@@ -52,8 +52,8 @@ body {
 .column {
     display: flex;
     align-items: center;
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);    
+    background: rgb(148,187,233);
+    background: radial-gradient(circle, rgba(148,187,233,0.963202468487395) 0%, rgba(148,187,233,1) 40%);              
     margin-left: 8px;
     margin-right: 8px;
     border-radius: 30px;
@@ -62,8 +62,9 @@ body {
 }
 
 
-.weather-deatail>span {
-    font-size: 20px;
+.weather-deatail>p {
+    margin-top: 15px;
+    font-size: 18px;
     font-weight: bolder;
 
 
@@ -72,7 +73,7 @@ body {
 }
 
 .weather-image {
-    width: 50px;
+    width: 30px;
 }
 .weather-deatail-value{
     margin-left: 45%;
