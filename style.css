@@ -1,7 +1,7 @@
 body {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 40%);
-    
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 40%);
+
 
 
 
@@ -29,7 +29,7 @@ body {
     height: 30px;
     margin-top: 5px;
     background: rgb(207 179 148);
-    
+
 
 }
 
@@ -50,36 +50,36 @@ body {
 }
 
 .column {
+
+    width: 60%;
+
+}
+
+
+
+
+.weather-image {
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+.forcast-figure {
+    margin-left: 14%;
+    margin-top: 10px;
+}
+
+.forcast {
     display: flex;
-    align-items: center;
-    background: rgb(148,187,233);
-    background: radial-gradient(circle, rgba(148,187,233,0.963202468487395) 0%, rgba(148,187,233,1) 40%);              
+    background: rgb(148, 187, 233);
+    background: radial-gradient(circle, rgba(148, 187, 233, 0.963202468487395) 0%, rgba(148, 187, 233, 1) 40%);
     margin-left: 8px;
     margin-right: 8px;
     border-radius: 30px;
-    margin-top: 4px;
-
+    margin-top: 7px;
 }
 
-
-.weather-deatail>p {
-    margin-top: 15px;
-    font-size: 18px;
-    font-weight: bolder;
-
-
-
-
-}
-
-.weather-image {
-    width: 30px;
-}
-.weather-deatail-value{
-    margin-left: 45%;
-    font-size: 15px;
-    font-weight: bolder;
-}
 
 
 
@@ -102,9 +102,9 @@ body {
     position: relative;
     margin: 20px auto;
     width: 200px;
-  }
-  
-  .input-container input[type="text"] {
+}
+
+.input-container input[type="text"] {
     font-size: 20px;
     width: 100%;
     border: none;
@@ -112,40 +112,36 @@ body {
     padding: 20px 0px 0px 0px;
     background-color: transparent;
     outline: none;
-  }
-  
-  .input-container .label {
+}
+
+.input-container .label {
     position: absolute;
     top: 30px;
     left: 0;
     color: #000;
     transition: all 0.3s ease;
     pointer-events: none;
-  }
-  
-  .input-container input[type="text"]:focus ~ .label,
-  .input-container input[type="text"]:valid ~ .label {
+}
+
+.input-container input[type="text"]:focus~.label,
+.input-container input[type="text"]:valid~.label {
     top: -5px;
     font-size: 16px;
     color: #333;
-  }
-  
-  .input-container .underline {
+}
+
+.input-container .underline {
     position: absolute;
     bottom: 0;
     left: 0;
     height: 2px;
     width: 100%;
-    background-color:#ffff00;
+    background-color: #ffff00;
     transform: scaleX(0);
     transition: all 0.3s ease;
-  }
-  
-  .input-container input[type="text"]:focus ~ .underline,
-  .input-container input[type="text"]:valid ~ .underline {
+}
+
+.input-container input[type="text"]:focus~.underline,
+.input-container input[type="text"]:valid~.underline {
     transform: scaleX(1);
-  }
-
-  
-
-
+}
