@@ -80,6 +80,13 @@ body {
     margin-top: 7px;
 }
 
+.search-btn {
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    background-color: #ffff00;
+}
+
 
 
 
