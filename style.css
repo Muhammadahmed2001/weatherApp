@@ -1,6 +1,11 @@
+* {
+    color: azure;
+}
+
 body {
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 40%);
+    background: rgb(110, 69, 60);
+    background: radial-gradient(circle, rgb(73, 59, 55) 0%, rgba(0, 0, 0, 1) 38%);
+    color: azure !important;
 
 
 
@@ -10,10 +15,11 @@ body {
 .main {
     margin: auto;
     margin-top: 50px;
-    background-image: url(pic/bac1.webp);
+    background-image: url(pic/12.jpg);
     width: 300px;
     height: 520px;
     border-radius: 30px;
+    /* border: #ffff00 1px solid; */
 
 }
 
@@ -72,8 +78,8 @@ body {
 
 .forcast {
     display: flex;
-    background: rgb(148, 187, 233);
-    background: radial-gradient(circle, rgba(148, 187, 233, 0.963202468487395) 0%, rgba(148, 187, 233, 1) 40%);
+    background: rgb(83, 88, 37);
+    background: linear-gradient(128deg, rgba(83, 88, 37, 1) 5%, rgba(115, 98, 86, 1) 27%);
     margin-left: 8px;
     margin-right: 8px;
     border-radius: 30px;
@@ -85,6 +91,7 @@ body {
     border: none;
     width: 150px;
     background-color: #ffff00;
+    color: black;
 }
 
 
@@ -115,7 +122,7 @@ body {
     font-size: 20px;
     width: 100%;
     border: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid azure !important;
     padding: 20px 0px 0px 0px;
     background-color: transparent;
     outline: none;
@@ -125,7 +132,7 @@ body {
     position: absolute;
     top: 30px;
     left: 0;
-    color: #000;
+    color: azure !important;
     transition: all 0.3s ease;
     pointer-events: none;
 }
@@ -134,7 +141,7 @@ body {
 .input-container input[type="text"]:valid~.label {
     top: -5px;
     font-size: 16px;
-    color: #333;
+    color: azure !important;
 }
 
 .input-container .underline {
